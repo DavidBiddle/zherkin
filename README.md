@@ -14,4 +14,8 @@ Some ideas of what could be interesting:
 ## Visual Inspiration
 Feel free to use this as a guide for what it *could* look like, or don't if you had something else in mind.
 
-// todo add link
+Desktop
+![Desktop mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/desktop.png)
+
+Mobile
+![Mobile mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/mobile.png
