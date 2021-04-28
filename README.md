@@ -18,4 +18,4 @@ Desktop
 ![Desktop mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/desktop.png)
 
 Mobile
-![Mobile mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/mobile.png
+![Mobile mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/mobile.png)
