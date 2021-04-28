@@ -7,7 +7,7 @@ You are encouraged to use a tech stack you ARE NOT familiar with or want to expl
 
 Some ideas of what could be interesting:
 - Build a front-end that takes `/Gherkin` and presents it in a nice way
-- Build a DevOps pipeline to automatically builds some front-end static site or executes a script that outputs statistics/details of `/Gherkin` somewhere
+- Build a DevOps pipeline that automatically builds some front-end static site or executes a script that outputs statistics/details of `/Gherkin` somewhere
 - Build a back-end that uses `/Gherkin` and exposes the tests (and/or stats) via an API
 - None or all of the above. You are free to come up with anything else you find interesting 🙂
 
