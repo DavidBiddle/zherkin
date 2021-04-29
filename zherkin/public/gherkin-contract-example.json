@@ -1,0 +1,69 @@
+[
+    {
+        "name": "Emergency Delivery hours",
+        "scenarios": [
+            {
+                "name": "Serving hours are present on menu pages",
+                "tags": ["@serving-times", "@bau-113"],
+                "steps": [
+                    "Given a venue has a menu page",
+                    "And the venue has valid serving hours in Heart",
+                    "When the page is reviewed",
+                    "Then the serving hours are shown on the page"
+                ]
+            },
+            {
+                "name": "Serving hours on desktop and mobile views",
+                "tags": ["@serving-times", "@bau-113"],
+                "steps": [
+                    "Given a venue has a menu page",
+                    "And the venue has valid serving hours in Heart",
+                    "When the page is reviewed on a <desktopOrMobile> device",
+                    "Then the serving hours are shown <location>"
+                ],
+                "examples": [
+                    [
+                        ["desktopOrMobile", "desktop"],
+                        [
+                            "location",
+                            "on the left hand navigation under dietary needs"
+                        ]
+                    ],
+                    [
+                        ["desktopOrMobile", "mobile"],
+                        [
+                            "location",
+                            "at the top of the page under the 'Select Category' box"
+                        ]
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Venue menu types",
+        "scenarios": [
+            {
+                "name": "Serving hours show Special Opening Hours if applicable",
+                "tags": ["@serving-times", "@bau-113"],
+                "steps": [
+                    "Given a venue has a menu page",
+                    "And the venue has updated serving hours via the special opening hours function",
+                    "When the page is reviewed",
+                    "Then the serving hours are shown on the page",
+                    "And these serving hours match those from the Special Opening hours"
+                ]
+            },
+            {
+                "name": "Serving hours show on all menu sub-pages",
+                "tags": ["@serving-times", "@bau-113"],
+                "steps": [
+                    "Given a venue has a menu page",
+                    "And the venue has valid serving hours in Heart",
+                    "When the menu subpages are reviewed",
+                    "Then the serving hours are shown on the page"
+                ]
+            }
+        ]
+    }
+]
