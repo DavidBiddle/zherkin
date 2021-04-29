@@ -15,7 +15,11 @@ Some ideas of what could be interesting:
 Feel free to use this as a guide for what it *could* look like, or don't if you had something else in mind.
 
 Desktop
+
+
 ![Desktop mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/desktop.png)
 
 Mobile
+
+
 ![Mobile mock-up](https://raw.githubusercontent.com/zone/zherkin-hackathon/main/mobile.png)
